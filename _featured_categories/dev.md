@@ -1,10 +1,10 @@
 ---
 layout: list
 title: Archive
-slug: dev
+slug: review
 menu: true
-submenu: true
+submenu: false
 order: 1
-description: > Review 
+description: >
+  review
 ---
-
