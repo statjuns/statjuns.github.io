@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Review
-slug: review
+title: Book Review
+slug: book review
 menu: true
 submenu: false
 order: 4
