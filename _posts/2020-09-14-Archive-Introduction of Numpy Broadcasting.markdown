@@ -5,7 +5,6 @@ subtitle:   "Numpy bradicasting with codes"
 categories: Archive
 tags: git
 comments: true
-header-img: /img/me.jpg
 ---
 <!--
 
