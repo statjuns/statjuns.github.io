@@ -5,7 +5,7 @@ subtitle:   "운영체제별 깃 설치법"
 categories: Archive
 tags: git
 comments: true
-header-img: /img/me.jpg
+header-img: /assets/img/me.jpg
 ---
 
 
