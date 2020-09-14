@@ -27,9 +27,9 @@ jobs:
         pip install jupyter_client ipykernel
         python3 -m ipykernel install --user
         git clone https://github.com/fastai/nbdev.git
-        pip install -e nbdev
+        pip install nbdev
         cp nbdev/settings.ini .
-        python _action_files/nb2post.py
+        python3 _action_files/nb2post.py
 
     - name: commit & push files
       run: |
