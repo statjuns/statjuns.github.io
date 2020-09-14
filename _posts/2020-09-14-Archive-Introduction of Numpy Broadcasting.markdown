@@ -3,7 +3,7 @@ layout: post
 title:  "Introduction of Numpy Broadcasting"
 subtitle:   "Numpy bradicasting with codes"
 categories: Archive
-tags: git
+tags: numpy
 comments: true
 ---
 <!--
