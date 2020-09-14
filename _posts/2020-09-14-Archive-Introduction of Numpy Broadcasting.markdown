@@ -1,12 +1,11 @@
 ---
-toc: True
-title: Introduction of Numpy Broadcasting
-
-keywords: fastai
-sidebar: home_sidebar
-
-summary: "https://jakevdp.github.io/PythonDataScienceHandbook/02.05-computation-on-arrays-broadcasting.html  Korean Translation, Arrangement"
-description: "https://jakevdp.github.io/PythonDataScienceHandbook/02.05-computation-on-arrays-broadcasting.html  Korean Translation, Arrangement"
+layout: post
+title:  "Git 설치하기"
+subtitle:   "운영체제별 깃 설치법"
+categories: Archive
+tags: git
+comments: true
+header-img: /img/me.jpg
 ---
 <!--
 
