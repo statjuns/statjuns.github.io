@@ -7,6 +7,9 @@ tags: numpy
 comments: true
 ---
 # Introduction of Numpy Broadcasting
+
+
+
 <!--
 
 #################################################
