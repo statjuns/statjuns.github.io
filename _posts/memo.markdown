@@ -1,9 +1,13 @@
-ads.txt
-f12 깨짐 ->font변경 : Merriweather-Light 제거
-data-ad-slot attr제거
-메인 20개 열거 
+---
+layout: post
+title:  "Introduction of Numpy Broadcasting"
+subtitle:   "Numpy bradicasting with codes"
+categories: Archive
+tags: numpy
+comments: true
+---
 
---
+
 알아아 할 3가지 : 사람, 창업, DS
 
 아무것도 하지 않으면 아무일도 일어나지 않는다.
