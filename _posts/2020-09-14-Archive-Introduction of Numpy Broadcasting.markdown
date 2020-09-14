@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Git 설치하기"
-subtitle:   "운영체제별 깃 설치법"
+title:  "Introduction of Numpy Broadcasting"
+subtitle:   "Numpy bradicasting with codes"
 categories: Archive
 tags: git
 comments: true
