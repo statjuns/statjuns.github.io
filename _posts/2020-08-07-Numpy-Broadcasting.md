@@ -1,12 +1,15 @@
 ---
-layout: post
-title:  "Introduction of Numpy Broadcasting"
-subtitle:   "Numpy bradicasting with codes"
-categories: Archive
-tags: numpy
-comments: true
+toc: True
+title: Introduction of Numpy Broadcasting
+
+
+keywords: fastai
+sidebar: home_sidebar
+
+summary: "https://jakevdp.github.io/PythonDataScienceHandbook/02.05-computation-on-arrays-broadcasting.html  Korean Translation, Arrangement"
+description: "https://jakevdp.github.io/PythonDataScienceHandbook/02.05-computation-on-arrays-broadcasting.html  Korean Translation, Arrangement"
+nb_path: "_notebooks/2020-08-07-Numpy-Broadcasting.ipynb"
 ---
-# Introduction of Numpy Broadcasting
 <!--
 
 #################################################
