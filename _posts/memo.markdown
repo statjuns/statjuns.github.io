@@ -1,11 +1,11 @@
----
+
 layout: post
-title:  "Introduction of Numpy Broadcasting"
-subtitle:   "Numpy bradicasting with codes"
+title:  
+subtitle:
 categories: Archive
-tags: numpy
+tags: 
 comments: true
----
+
 
 
 알아아 할 3가지 : 사람, 창업, DS
