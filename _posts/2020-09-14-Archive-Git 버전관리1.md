@@ -54,7 +54,7 @@ comments: true
 
 
 
-![areas](/Users/seongjun/Documents/statjuns.github.io/assets/img/post_img/areas.png)
+![areas](/assets/img/post_img/areas.png)
 
 (source: git doc)
 
@@ -68,7 +68,7 @@ comments: true
 
 - 이러한 방식은 다른 버전관리 프로그램과 달리 빠르게 버전의 차이점을 처리하고, 용량을 적게 사용합니다.
 
-![snapshow](/Users/seongjun/Documents/statjuns.github.io/assets/img/post_img/snapshow.png)
+![snapshow](/assets/img/post_img/snapshow.png)
 
 
 
@@ -76,7 +76,7 @@ comments: true
 
 ### 버전관리 실습
 
-####파일 수정 (vim)
+#### 파일 수정 (vim)
 
 1. git status : 현재 깃 상태 확인
    - on branch master - 현재 master브랜치에 있다. (브랜치는 저장소안의 폴더로 생각)
@@ -86,7 +86,7 @@ comments: true
 3. git status 
    - untracked file : 아직 작업트리에만 존재하는 파일
 
-####파일 스테이징(git add)
+#### 파일 스테이징(git add)
 
 4. git add hello.txt : hello.txt파일을 스테이지에 올림
 5. git status

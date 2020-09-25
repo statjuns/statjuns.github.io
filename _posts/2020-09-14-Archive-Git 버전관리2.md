@@ -82,7 +82,7 @@ comments: true
 - git diff : 작업 트리에 있는 파일과 스테이지에 잇는 파일을 비교하거나, 스테이지에 잇는 파일과 저장소에 있는 파일을 비교해서 수정한 파일을 커밋하기 전에 최종적으로 검토할 수 있다.
 - 존재하는 파일 수정 -> git diff -> 가장 최신의 버전과 어떻게 다른지 확인 가능
 
-![git_version3](/Users/seongjun/Documents/statjuns.github.io/assets/img/post_img/git_version3.png)
+![git_version3](/assets/img/post_img/git_version3.png)
 
 
 
@@ -107,9 +107,9 @@ comments: true
 untracked -> unmodified -> modified -> staged
 
 ->->->->->->->->->->->->->->->->->->->->->->->스테이징
-							->->->->->->->->파일수정
-														->->->->->->->스테이징
-							<-<-<-<-<-<-<-<-<-<-<-<-<-<-커밋
+		->->->->->->->->파일수정
+				->->->->->->->스테이징
+	<-<-<-<-<-<-<-<-<-<-<-<-<-<-커밋
 ```
 
 

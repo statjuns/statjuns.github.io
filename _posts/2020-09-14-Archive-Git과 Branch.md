@@ -22,7 +22,7 @@ comments: true
 
 
 
-###Branch 만들기
+### Branch 만들기
 
 - git branch : 브랜치 목록 확인
 
@@ -35,7 +35,7 @@ git checkout testing
 
 
 
-![head-to-master](/Users/seongjun/Documents/statjuns.github.io/assets/img/post_img/head-to-master.png)
+![head-to-master](/assets/img/post_img/head-to-master.png)
 
 
 
@@ -50,7 +50,7 @@ git commit -am "made change"
 
 
 
-![advance-testing](/Users/seongjun/Documents/statjuns.github.io/assets/img/post_img/advance-testing.png)
+![advance-testing](/assets/img/post_img/advance-testing.png)
 
 
 
@@ -61,7 +61,7 @@ git commit -am "made change"
 git checkout master)
 ```
 
-![checkout-master](/Users/seongjun/Documents/statjuns.github.io/assets/img/post_img/checkout-master.png)
+![checkout-master](/assets/img/post_img/checkout-master.png)
 
 
 
@@ -75,7 +75,7 @@ git commit -am "made other change"
 
 
 
-![advance-master](/Users/seongjun/Documents/statjuns.github.io/assets/img/post_img/advance-master.png)
+![advance-master](/assets/img/post_img/advance-master.png)
 
 #### 실습
 
@@ -120,7 +120,7 @@ git commit -am "made other change"
 
      - 충돌 발생
 
-       ![merge_collision](/Users/seongjun/Documents/statjuns.github.io/assets/img/post_img/merge_collision.png)
+       ![merge_collision](/assets/img/post_img/merge_collision.png)
 
        <<<<<<< HEAD
 
@@ -145,7 +145,7 @@ git commit -am "made other change"
 
 - 만약 master 브랜치가 iss53브랜치가 분기된 커밋에서 새로운 커밋이 만들어지지 않았다면 master브랜치는 iss53브랜치로 fast-forward(빨리감기)한다.
 
-![branch_merge](/Users/seongjun/Documents/statjuns.github.io/assets/img/post_img/branch_merge.png)
+![branch_merge](/assets/img/post_img/branch_merge.png)
 
 
 
@@ -157,7 +157,7 @@ git commit -am "made other change"
 
 - 시간 순서대로 자연스럽게 합치는 장점이 있다.
 
-![branch_rebase](/Users/seongjun/Documents/statjuns.github.io/assets/img/post_img/branch_rebase.png)
+![branch_rebase](/assets/img/post_img/branch_rebase.png)
 
 
 
@@ -216,11 +216,5 @@ git commit -am "made other change"
 
   - git은 리베이스의 목적지가 되는 곳 아래에 복사될 커밋들을 보여주는 vim을 띄운다. 각 커밋을 구분할 수 있는 각각의 해시들과 메시지도 보여준다.
 
-    ![interactive_rebase](/Users/seongjun/Documents/statjuns.github.io/assets/img/post_img/interactive_rebase.png)
-
-    
-
-  - 
-
-
+    ![interactive_rebase](/assets/img/post_img/interactive_rebase.png)
 
