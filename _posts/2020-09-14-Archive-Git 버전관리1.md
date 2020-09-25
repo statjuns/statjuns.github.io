@@ -54,7 +54,7 @@ comments: true
 
 
 
-![areas](/Users/seongjun/Documents/statjuns.github.io/assets/img/post_img/areas.png)
+![areas](/assets/img/post_img/areas.png)
 
 (source: git doc)
 
@@ -68,7 +68,7 @@ comments: true
 
 - 이러한 방식은 다른 버전관리 프로그램과 달리 빠르게 버전의 차이점을 처리하고, 용량을 적게 사용합니다.
 
-![snapshow](/Users/seongjun/Documents/statjuns.github.io/assets/img/post_img/snapshow.png)
+![snapshow](/assets/img/post_img/snapshow.png)
 
 
 
