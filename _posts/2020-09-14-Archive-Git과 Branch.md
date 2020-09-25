@@ -30,7 +30,7 @@ comments: true
 
 ```
 git branch testing
-git checkout testing\
+git checkout testing
 ```
 
 
@@ -105,7 +105,10 @@ git commit -am "made other change"
 
 - 각 브랜치에서 작업하다 어느 시점에서 브랜치 작업을 마무리하고 기존의 브랜치와 합쳐야하는 상황 발생한다.
 
-- git merge branchname : HEAD가 가리키는 branch와 branchname을 병합
+- git merge를 이용하는 방법과 git rebase를 이용하는 방법이 있다.
+
+  - git merge branchname : HEAD가 가리키는 branch와 branchname을 병합(3-way)
+  - git rebase branchname : HEAD가 가리키는 branch와 branchname을 병합(2-way)
 
 - 병합할 때 파일 수정 위치에 따라 충돌이 발생할 수 있다.
 
@@ -137,6 +140,24 @@ git commit -am "made other change"
 
        - p4merge, meld, kdiff3 등
        - [p4merge설치법](https://teddylee777.github.io/git/study-git-2)
+
+- git merge를 이용하면 옆의 그림과 같이 master, iss53이 가리키고 있는 커밋(c3, c4)과 두 개의 브랜치의 공동 조상 커밋(c2)를 합치는 새로운 커밋을 만든다( c6)
+
+- 만약 master 브랜치가 iss53브랜치가 분기된 커밋에서 새로운 커밋이 만들어지지 않았다면 master브랜치는 iss53브랜치로 fast-forward(빨리감기)한다.
+
+![branch_merge](/Users/seongjun/Documents/statjuns.github.io/assets/img/post_img/branch_merge.png)
+
+
+
+
+
+- git rebase는 merge와 달리 c3,c4,c2를 합치지는 새로운 커밋으로 합치지 않고 c3 앞에 c4를 복사해 합친다 
+
+- rebase하고 master로 돌아가서 merge로 master를 옮겨 줘야한다(fast-forward)
+
+- 시간 순서대로 자연스럽게 합치는 장점이 있다.
+
+![branch_rebase](/Users/seongjun/Documents/statjuns.github.io/assets/img/post_img/branch_rebase.png)
 
 
 
@@ -174,10 +195,32 @@ git commit -am "made other change"
   - 현재 시점의 modified file들을 unmodified file로 바꾼다
 - git stash pop : stash 목록에서 가장 최근의 항목 목록에서 삭제 후 되돌린다
   - git stash list : stash 목록 출력
-
 - git stash apply : stash 목록에서 가장 최근의 항목 목록에서 삭제 하지않고 되돌린다
-
 - git stash drop : stash 목록에서 가장 최근의 항목을 삭제한다.
+
+
+
+### git cherry-pick
+
+- git cherry-pick commit1 commit2 ... : 현재 위치(HEAD) 아래에 있는 일련의 커밋들에대한 복사본을 만들겟다는 것을 간단히 줄인말이다.
+- 다른 브랜치에 있는 커밋들을 rebase처럼 복사해온다
+- Git 체리-픽은 여러분이 원하는 커밋이 무엇인지 알때(각각의 해시값도) 아주 유용하다,
+
+
+
+### Interactive rebase
+
+- git cherry-pick에서 가져올 커밋의 커밋해시를 정확하게 모를 때 사용할 수 있다.
+
+- git rebase -i : 
+
+  - git은 리베이스의 목적지가 되는 곳 아래에 복사될 커밋들을 보여주는 vim을 띄운다. 각 커밋을 구분할 수 있는 각각의 해시들과 메시지도 보여준다.
+
+    ![interactive_rebase](/Users/seongjun/Documents/statjuns.github.io/assets/img/post_img/interactive_rebase.png)
+
+    
+
+  - 
 
 
 

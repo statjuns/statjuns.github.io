@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Gitbub 협업"
+title:  "Github 협업"
 subtitle: github으로 협업하기
 categories: Archive
 tags: git
@@ -17,7 +17,7 @@ comments: true
 
 - 깃헙 무료계정은 최대 3명의 공동작업자를 추가할 수 있다.
 
-1. 원격저장소의 팀장 계정이 공유할 원격저장소 `settings -> manage access` 에서 공동작업자 추가가능
+1. 원격저장소의 팀장 계정이 공유할 원격저장소 `settings -> manage access 에서 공동작업자 추가가능
 
 2. 팀장 계정 작업환경구성
    - git config --local user.name 사용자이름

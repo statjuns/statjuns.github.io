@@ -58,6 +58,22 @@ comments: true
 
 (source: git doc)
 
+
+
+### snapshot
+
+- 저장소에는 폴더의 스냅샷(현재의 상태)들을 연속적으로 저장한다.
+
+- Git의 스냅샷은 HEAD가 가리키는 커밋을 기반으로 스냅샷(사진)을 찍고 이를 스테이지 영역과 비교해 새로운 커밋으로 기록한다.
+
+- 이러한 방식은 다른 버전관리 프로그램과 달리 빠르게 버전의 차이점을 처리하고, 용량을 적게 사용합니다.
+
+![snapshow](/Users/seongjun/Documents/statjuns.github.io/assets/img/post_img/snapshow.png)
+
+
+
+
+
 ### 버전관리 실습
 
 ####파일 수정 (vim)

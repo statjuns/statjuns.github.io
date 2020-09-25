@@ -84,3 +84,5 @@ comments: true
 - 사용자 정보 설정
   - git config --global user.name = username
   - git config --global user.email = useremali
+    - --unset: 설정 삭제
+

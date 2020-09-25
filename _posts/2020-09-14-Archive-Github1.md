@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Gitbub 백업"
+title:  "Github 백업"
 subtitle: github 연결하기, remote repository
 categories: Archive
 tags: git
@@ -9,7 +9,7 @@ comments: true
 
 
 
-# GIthub 백업
+# Github 백업
 
 - 깃허브는 깃을 관리할 수 있는 원격저장소를 제공하는 대표적인 서비스이다
 - 깃 사용, 지역저장소 백업, 협업프로젝트, 개발 이력 기록, 다른 사람의 소스 사용, 오픈소스 참여 등을 할 수 있다.
