@@ -76,7 +76,7 @@ comments: true
 
 ### 버전관리 실습
 
-####파일 수정 (vim)
+#### 파일 수정 (vim)
 
 1. git status : 현재 깃 상태 확인
    - on branch master - 현재 master브랜치에 있다. (브랜치는 저장소안의 폴더로 생각)
@@ -86,7 +86,7 @@ comments: true
 3. git status 
    - untracked file : 아직 작업트리에만 존재하는 파일
 
-####파일 스테이징(git add)
+#### 파일 스테이징(git add)
 
 4. git add hello.txt : hello.txt파일을 스테이지에 올림
 5. git status
