@@ -60,7 +60,7 @@ comments: true
    - 로컬저장소를 지정해주지 않으면 현재폴더에 복사된다.
 2. 여러 컴퓨터에서 같은 원격 저장소를 복사하여 같이 사용할 수 있다. 
 
-![github_colla](/Users/seongjun/Documents/statjuns.github.io/assets/img/post_img/github_colla.png)
+![github_colla](/assets/img/post_img/github_colla.png)
 
 
 
