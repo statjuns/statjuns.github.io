@@ -218,9 +218,3 @@ git commit -am "made other change"
 
     ![interactive_rebase](/assets/img/post_img/interactive_rebase.png)
 
-    
-
-  - 
-
-
-
