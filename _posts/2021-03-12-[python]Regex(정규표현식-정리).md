@@ -6,6 +6,7 @@ title: 파이썬 정규표현식 정리
 keywords: fastai
 sidebar: home_sidebar
 tags: python re
+categories: Archive
 summary: "python의 re모듈을 활용한 정규표현식 사용법, 점프투파이썬 참고"
 description: "python의 re모듈을 활용한 정규표현식 사용법, 점프투파이썬 참고"
 nb_path: "_notebooks/2021-03-12-[python]Regex(정규표현식 정리).ipynb"
