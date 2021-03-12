@@ -161,7 +161,7 @@ git commit -am "made other change"
 
 
 
-###Branch 삭제하기
+### Branch 삭제하기
 
 - 병합 후 더 이상 사용하지 않는 브랜치는 삭제가능하다
 - git branch -d branchname: git branch의 -d 옵션을 사용하면 삭제가능
