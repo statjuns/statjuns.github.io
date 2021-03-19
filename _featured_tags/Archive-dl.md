@@ -2,7 +2,7 @@
 layout: tag-blog
 title: DL
 slug: dl
-category: dev
+category: Archive
 menu: false
 order: 2
 ---
